@@ -11,6 +11,10 @@ end
 
 def merge(ar1, ar2)
   sorted_array = []
+  if a1[0] == a2[0]
+    ar2.shift
+  end
+
   if ar1.empty?
     ar2
   elsif ar2.empty?
